@@ -21,9 +21,10 @@ mkdir results
 /usr/bin/time -o results/js -f "%es" node main.js
 /usr/bin/time -o results/ts -f "%es" node main.ts
 /usr/bin/time -o results/java -f "%es" java main.java
+/usr/bin/time -o results/go -f "%es" ./bin/main_go
 cd main.cs
 /usr/bin/time -o ../results/cs -f "%es" dotnet run
 cd ..
 cd results
-echo $(cat c; printf "\nc\n"; cat cpp; printf "\ncpp\n"; cat hc; printf "\nhc\n"; cat rs; printf "\nrs\n"; cat zig; printf "\nzig\n"; cat py; printf "\npy\n"; cat js; printf "\njs\n"; cat ts; printf "\nts\n"; cat java; printf "\njava\n"; cat cs; printf "\ncs\n") > results.txt # i couldnt think of any normal way of doing this
+echo $(cat c; printf "\nc\n"; cat cpp; printf "\ncpp\n"; cat hc; printf "\nhc\n"; cat rs; printf "\nrs\n"; cat zig; printf "\nzig\n"; cat py; printf "\npy\n"; cat js; printf "\njs\n"; cat ts; printf "\nts\n"; cat java; printf "\njava\n"; cat go; printf "\ngo\n"; cat cs; printf "\ncs\n") > results.txt # i couldnt think of any normal way of doing this
 cd ..
