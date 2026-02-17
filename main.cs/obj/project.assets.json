@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/griesson/Documents/elisey/programming_stuff/pi_approx_battle/main.cs/pi.csproj",
+      "projectUniqueName": "/home/griesson/Documents/elisey/programming_stuff/pi-aprox-battle/main.cs/pi.csproj",
       "projectName": "pi",
-      "projectPath": "/home/griesson/Documents/elisey/programming_stuff/pi_approx_battle/main.cs/pi.csproj",
+      "projectPath": "/home/griesson/Documents/elisey/programming_stuff/pi-aprox-battle/main.cs/pi.csproj",
       "packagesPath": "/home/griesson/.nuget/packages/",
-      "outputPath": "/home/griesson/Documents/elisey/programming_stuff/pi_approx_battle/main.cs/obj/",
+      "outputPath": "/home/griesson/Documents/elisey/programming_stuff/pi-aprox-battle/main.cs/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/griesson/.nuget/NuGet/NuGet.Config"
